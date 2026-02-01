@@ -15,7 +15,7 @@ CUSTOM_CONFIG = r"--oem 3 --psm 11"
 INPUT_IMAGES = Path(r"C:\Users\user\Downloads\image")
 INPUT_PDFS = Path(r"C:\Users\user\Downloads\pdf")
 
-OUTPUT_TEXT = Path("output/text")
+OUTPUT_TEXT = Path("output1/text")
 OUTPUT_PDF = Path("output/pdf")
 
 OUTPUT_TEXT.mkdir(parents=True, exist_ok=True)
