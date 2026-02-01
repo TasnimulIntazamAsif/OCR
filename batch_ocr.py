@@ -2,8 +2,8 @@ from pathlib import Path
 from ocr_images import ocr_image
 from ocr_pdfs import ocr_pdf
 
-INPUT_IMAGES = Path("C:/Users/user/Downloads/images.jpg")
-INPUT_PDFS = Path("C:/Users/user/Downloads/National_ID_Card.pdf")
+INPUT_IMAGES = Path("C:/Users/user/Downloads/images")
+INPUT_PDFS = Path("C:/Users/user/Downloads/National_ID_Card")
 
 OUTPUT_TEXT = Path("output/text")
 OUTPUT_PDF = Path("output/pdf")
